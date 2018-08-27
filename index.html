@@ -15,21 +15,23 @@
         crossorigin="anonymous">
 
     <body>
-        <div class="container">
+        <div class="container" id="startGame">
             <!-- Content here -->
-            <div class="container2">
-                <img src="" alt="Disney">
-                <button id="start">
-                    <h2>Start</h2>
-                </button>
-            </div>
-            <h1>Disney Classics Trivia</h1>
+            <h1>Disney Movie Trivia</h1>
 
+
+            <button id="start">
+                <h2>Start</h2>
+            </button>
         </div>
+
+
+
 
         <div class="timer"></div>
         <div class="answers">
             <div id="questionAnswer">
+                <h1>Disney Movie Trivia</h1>
                 <span id="timer"></span>
                 <form>
                     <h4>Q1. In the movie Finding Nemo, which country has Nemo been taken to?</h4>
@@ -91,7 +93,11 @@
                 </button>
             </div>
         </div>
-        </div>
+       <div class= "end" id="theEnd">
+            Incorrect:
+            <br>
+            Correct:
+       </div>
     </body>
 
     <script src="assets/javascript/app.js"></script>
